@@ -5,7 +5,7 @@ Instructions:
 ```
 mkdir -p cmake-tests/helloworld
 cd cmake-tests/helloworld
-git clone https://github.com/winksaville/cmake-tests-helloworld
+git clone https://github.com/winksaville/cmake-tests-helloworld .
 mkdir build
 cd build
 cmake ..
