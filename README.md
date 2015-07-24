@@ -7,7 +7,7 @@ mkdir -p cmake-tests/helloworld
 cd cmake-tests/helloworld
 git clone https://github.com/winksaville/cmake-tests-helloworld.git .
 mkdir cmake-build
-cd cmake-build
+cd make-build
 cmake ..
 make
 app/helloworld
