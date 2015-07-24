@@ -14,6 +14,7 @@ app/helloworld
 cd ../
 mkdir ninja-build
 cd ninja-build
+cmake -GNinja ..
 ninja
 app/helloworld
 
