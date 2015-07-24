@@ -5,12 +5,18 @@ Instructions:
 ```
 mkdir -p cmake-tests/helloworld
 cd cmake-tests/helloworld
-git clone https://github.com/winksaville/cmake-tests-helloworld .
-mkdir build
-cd build
+git clone git:github.com:winksaville/cmake-tests-helloworld.git .
+mkdir cmake-build
+cd cmake-build
 cmake ..
 make
 app/helloworld
+cd ../
+mkdir ninja-build
+cd ninja-build
+ninja
+app/helloworld
+
 ```
 
 Based partly on Mirko Kiefer [cmake-by-example](http://mirkokiefer.com/blog/2013/03/cmake-by-example/)
